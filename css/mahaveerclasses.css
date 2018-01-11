@@ -1,0 +1,66 @@
+
+
+.buttom-section{
+	background-color:#0d0f0d;
+	width: 100%;
+	height: auto;
+}
+.buttom-section h3{
+	font-weight: 200;
+	color: rgb(255, 230, 255);
+	text-shadow: 4px 4px 5px rgb(0, 0, 0), 4px 6px 1px #000;
+	font-weight: 800;
+}
+.buttom-section a,
+.buttom-section p{
+	color: rgb(255, 213, 245);
+	text-shadow: 6px 4px 2px rgb(0, 0, 0), 4px 6px 1px #000;
+	transition: 0.3s;
+	font-weight: 500;
+}
+@media (max-width: 768px){
+	.buttom-section a,
+	.buttom-section p{
+		text-shadow: 8px 5px 8px rgb(0, 0, 0), 8px 6px 5px #000;
+	}
+}
+.buttom-section a:hover{
+	text-decoration: none;
+	color: rgb(255, 255, 255); 
+	text-shadow: 0px 0px 0px rgb(0, 0, 0), 0px 0px 0px #000;
+	transition: 0.3s;
+}
+.buttom-section .line{
+	width: 100%;
+	height: 4px;
+	border: 1px dashed #ffff;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+.whatsapp{
+	color: rgb(14, 189, 58);
+}
+.facebook{
+	color: rgb(30, 18, 155);
+}
+.twitter{
+	color: rgb(0, 140, 255);
+}
+.google{
+	color: rgb(209, 0, 0);
+	opacity: 0.8;
+}
+
+h2{
+	color: red;
+}
+h3{
+	color: rgb(60, 0, 255);
+}
+.designer-about a:hover{
+	text-decoration: none;
+}
+
+.admition{
+	padding: 20px;
+}
