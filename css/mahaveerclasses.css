@@ -7,6 +7,12 @@
 	color: black;
 }
 
+@media (max-width : 768px){
+	.welcome{
+		font-size: 1.5em;
+	}
+}
+
 .result table{
 	margin: 0px auto;
 }
