@@ -457,13 +457,14 @@ Mentor Team
 Testimonial
 ************************************/
 #testimonial{
-    background-color: #111;
+    background-color: #000;
 }
 .bg-white{
     background-color: #fff !important;
 }
 .text-comment{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(50,250,240,0.2);
+  color: #fff;
   padding: 30px;
   border-radius: 10px;
 }
